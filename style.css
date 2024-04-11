@@ -9,3 +9,15 @@ h1{
 strong{
   color: red;
 }
+img{
+  width: 80%;
+}
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  
+}
+#item{
+  text-decoration-style: italic;
+}
