@@ -1,26 +1,25 @@
-header{
+header {
   background: #BBBBBB;
-  padding: 20px 0;
 }
 
-.caixa{
-  width: 940px;
+.caixa {
   position: relative;
-  margin: 0 auto;
+  width: 940px;
+  /*margin: 0 auto;*/
 }
 
-nav{
+nav {
   position: absolute;
-  top: 110px;
+  top: 90px;
   right: 0;
 }
 
-nav li{
+nav li {
   display: inline;
   margin: 0 0 0 15px;
 }
 
-nav a{
+nav a {
   text-transform: uppercase;
   color: #000000;
   font-weight: bold;
@@ -29,7 +28,7 @@ nav a{
 }
 
 nav a:hover{
-  color: #C78C19;
+  color: #c78c19;
   text-decoration: underline;
 }
 
@@ -52,17 +51,16 @@ nav a:hover{
 }
 
 .produtos li:hover{
-  border-color: #C78C19;
+  border-color: #c78c19;
+}
+
+.produtos li:active{
+  border-color: #088c19;
 }
 
 .produtos li:hover h2{
   font-size: 34px;
 }
-
-.produtos li:active{
-  border-color: #088C19;
-}
-
 .produtos h2{
   font-size: 30px;
   font-weight: bold;
@@ -85,7 +83,31 @@ footer{
 }
 
 .copyright{
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 13px;
-  margin-top: 20px;
+  margin: 20px 0 0 0;
 }
+
+
+main {
+width: 940px;
+  margin: 0 auto;
+}
+
+form{
+  margin: 40px 0;
+}
+
+fome label{
+  display: block;
+  font-size: 20px; 
+  margin-bottom: 10px;
+}
+
+
+form input{
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%; 
+} 
