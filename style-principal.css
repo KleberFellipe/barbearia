@@ -111,3 +111,12 @@ form input{
   padding: 10px 25px;
   width: 50%; 
 } 
+.enviar {
+  background: orange;
+  color: white;
+  font-weight: bold;
+}
+.enviar:hover{
+  background: darkorange;
+  transform: scale(1.2);
+}

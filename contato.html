@@ -23,9 +23,9 @@
       </nav>
     </div>
   </header>
-
   <main>
     <form>
+      
       <label for="NomeSobrenome">Nome e sobrenome.</label>
       <input type="text" id="NomeSobrenome">
 
@@ -33,9 +33,21 @@
       <input type="text" id="email">
 
       <label for="telefone">Telefone</label>
-      <input type="text" id="telefone">
+      <input type="tel" id="telefone">
 
+      <label for="mensagem">Menagem</label>
+      <input type="text" id="Menagem">
+      <legend>Como prefere o nosso contato?</legend>
 
+      <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+      <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+          id="radio-telefone">Telefone</label>
+
+      <label for="radio-Whatsapp"><input type="radio" name="contato" value="Whatsapp"
+          id="radio-Whatsapp">Whatsapp</label>
+
+      <input type="submit" id="enviar" class="enviar">
 
     </form>
   </main>
