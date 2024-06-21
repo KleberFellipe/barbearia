@@ -115,6 +115,7 @@ form input{
   background: orange;
   color: white;
   font-weight: bold;
+  transition: 2s;
 }
 .enviar:hover{
   background: darkorange;
